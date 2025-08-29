@@ -18,23 +18,8 @@ The Universal Robots URDF Viewer panel renders a UR e-series arm (UR16e/UR10e) i
 
 - Radians-based inputs by default (degree data can be converted upstream or scaled).
 
-
-
-**BEFORE YOU BEGIN**
-- Ensure all links are absolute URLs so that they will work when the README is displayed within Grafana and Grafana.com
-- Be inspired ✨
-  - [grafana-polystat-panel](https://github.com/grafana/grafana-polystat-panel)
-  - [volkovlabs-variable-panel](https://github.com/volkovlabs/volkovlabs-variable-panel)
-
-## Overview / Introduction
-Provide one or more paragraphs as an introduction to your plugin to help users understand why they should use it.
-
-Consider including screenshots:
-- in [plugin.json](https://grafana.com/developers/plugin-tools/reference/plugin-json#info) include them as relative links.
-- in the README ensure they are absolute URLs.
-
 ## Requirements
-This panel uses three.js and assumes a data source of real time data coming from a Universal Robot (URSim or physical robot) via RTDE  
+This panel uses three.js and URDF-Loader and assumes a data source of real time data coming from a Universal Robot (URSim or physical robot) via RTDE  
 
 Data input is assumed to be `base, elbow, shoulder, wrist1, wrist2, wrist3` as seperate fields
 
