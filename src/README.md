@@ -8,6 +8,15 @@ Remove any remaining comments before publishing as these may be displayed on Gra
 
 The Universal Robots URDF Viewer panel renders a UR e-series arm (UR16e/UR10e) inside Grafana using a URDF model and animates the joints from live time-series data. It’s designed as a lightweight digital twin for dashboards: operators can orbit, pan, and zoom the 3D scene and watch joint motion in real time.
 
+**Examples**
+
+UR16e:
+![UR16 Panel](https://raw.githubusercontent.com/ijsaleem/ur16e-panel/refs/heads/main/src/img/screenshots/UR16%20panel.png)
+
+UR10:
+![UR10 Panel](https://raw.githubusercontent.com/ijsaleem/ur16e-panel/refs/heads/main/src/img/screenshots/UR10%20panel.png)
+
+
 ## Key features:
 
 - URDF model loading with Three.js rendering (grid, ambient + directional lights, OrbitControls).
