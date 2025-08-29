@@ -1,0 +1,42 @@
+{
+    "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+    "type": "panel",
+    "name": "Ur16e-Panel",
+    "id": "ijaz-ur16e-panel",
+    "info": {
+        "keywords": [
+            "panel",
+            "Universal Robots",
+            "visualization",
+            "UR16e",
+            "UR10",
+            "Robot"
+        ],
+        "description": "A visualisation tool for the UR16e and UR10 for data obtained via RTDE",
+        "author": {
+            "name": "Ijaz Saleem"
+        },
+        "logos": {
+            "small": "img/logo.svg",
+            "large": "img/logo.svg"
+        },
+        "links": [],
+        "screenshots": [
+            {
+                "name": "ur16panel",
+                "path": "img/screenshots/UR16 panel.png"
+            },
+            {
+                "name": "ur10panel",
+                "path": "img/screenshots/UR10 panel.png"
+            }
+        ],
+        "version": "1.0.0",
+        "updated": "2025-08-29"
+    },
+    "dependencies": {
+        "grafanaDependency": ">=10.4.0",
+        "plugins": []
+    },
+    "buildMode": "production"
+}
