@@ -4,10 +4,10 @@
   "name": "Ur16e-Panel",
   "id": "ijaz-ur16e-panel",
   "info": {
-    "keywords": ["panel"],
-    "description": "A visalisation tool for UR16e an UR10 for data obtained via RTDE",
+    "keywords": ["panel", "Universal Robots", "visualization", "UR16e", "UR10", "Robot"],
+    "description": "A visualisation tool for the UR16e and UR10 for data obtained via RTDE",
     "author": {
-      "name": "Ijaz"
+      "name": "Ijaz Saleem"
     },
     "logos": {
       "small": "img/logo.svg",
