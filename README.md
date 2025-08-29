@@ -44,6 +44,16 @@ Data input is assumed to be `base, elbow, shoulder, wrist1, wrist2, wrist3` as s
     |> pivot(rowKey: ["_time"], columnKey: ["_field"], valueColumn: "_value")
   ```
   
+## Further Development:
+To continue development in a linux distro of your choice:
+- Clone this repo
+- run  `npm install`
+- also run `docker compose up`
+- navigate to http://localhost:3000
+
+To add additional robots:
+- Add URDFs and meshes to revelvent forlders within `/img/`
+- Create options to click within `src/module.ts`
 
 
 
