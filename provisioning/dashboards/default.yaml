@@ -1,0 +1,7 @@
+apiVersion: 1
+
+providers:
+  - name: 'ur16e-panel'
+    type: file
+    options:
+      path: /etc/grafana/provisioning/dashboards
